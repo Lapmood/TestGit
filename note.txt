@@ -6,3 +6,10 @@
 找回添加到缓冲区后删除的文件
 	git reset --hard HEAD		进入当前版本
 	
+隐藏:
+	git stash : 隐藏
+	
+	git stash apply : 还原,不删除隐藏记录
+	git stash list : 查询删除隐藏记录
+	git stash drop : 删除隐藏记录
+	git stash pop : 还原并删除隐藏记录
